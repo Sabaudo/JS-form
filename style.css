@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.tela{
+    display: flex;
+    height: 100vh;
+}
+.esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.direita{
+    width: 400px;
+    background-color: #d6d6c2;
+    padding: 30px;
+    border-left: solid #c2c2a3 10px;
+}
+.imag{
+    width: 60%;
+    height: auto;
+}
+
+.form{
+    margin-top: 40px;
+
+}
+
+.direita input{
+    padding: 5px;
+
+}
